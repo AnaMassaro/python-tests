@@ -17,9 +17,9 @@ def function_sum(x, y):
   return x + y
 
 def function_subtract(x, y):
-  """Subtrai x e y
+  """Subtract x and y
 
-  >>> subtrai('10' ,5)
+  >>> function_subtract('10' ,5)
   Traceback (most recent call last):
   ...
   AssertionError: y must be int or float

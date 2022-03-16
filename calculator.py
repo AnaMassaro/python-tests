@@ -1,4 +1,4 @@
-def soma(x, y):
+def function_sum(x, y):
   """Soma x e y
   
   >>> soma(10, 20)
@@ -10,22 +10,22 @@ def soma(x, y):
   >>> soma('10', 20)
   Traceback (most recent call last):
   ...
-  AssertionError: x precisa ser int ou float
+  AssertionError: y must be int or float
   """
-  assert isinstance(x, (int, float)), 'x precisa ser int ou float'
-  assert isinstance(y, (int, float)), 'y precisa ser int ou float'
+  assert isinstance(x, (int, float)), 'x must be int or float'
+  assert isinstance(y, (int, float)), 'y must be int or float'
   return x + y
 
-def subtrai(x, y):
+def function_subtract(x, y):
   """Subtrai x e y
 
   >>> subtrai('10' ,5)
   Traceback (most recent call last):
   ...
-  AssertionError: x precisa ser int ou float
+  AssertionError: y must be int or float
   """
-  assert isinstance(x, (int, float)), 'x precisa ser int ou float'
-  assert isinstance(y, (int, float)), 'y precisa ser int ou float'
+  assert isinstance(x, (int, float)), 'x must be int or float'
+  assert isinstance(y, (int, float)), 'y must be int or float'
 
   return x - y
 

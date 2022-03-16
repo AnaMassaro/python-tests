@@ -1,12 +1,12 @@
-from calculator import soma
+from calculator import function_sum
 
-""" print(soma(10, 20))
-print(soma(-10, 20))
-print(soma(1.5, 2.5)) """
+""" print(function_sum(10, 20))
+print(function_sum(-10, 20))
+print(function_sum(1.5, 2.5)) """
 
 try:
-  print(soma('15',15))
+  print(function_sum('15',15))
 except AssertionError as e:
-  print(f'Conta invalida: {e}')
+  print(f'Invalid account: {e}')
 
-print('Conta', soma(25, 25))
+print('Invalid account', function_sum(25, 25))

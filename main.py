@@ -1,4 +1,4 @@
-from functions import soma
+from calculator import soma
 
 """ print(soma(10, 20))
 print(soma(-10, 20))

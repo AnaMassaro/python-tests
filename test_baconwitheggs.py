@@ -1,15 +1,7 @@
 """
-TDD - Test driven development (Desenvolvimendo dirigido a tests)
-
-Red
-Parte 1 -> Criar o teste e ver falhar
-
-Green
-Parte 2 -> Criar o código e ver o teste passar
-
-Refactor
-Parte 3 -> Melhorar meu código
+TDD - Test driven development
 """
+
 import unittest
 from baconwitheggs import bacon_with_eggs
 

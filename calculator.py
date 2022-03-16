@@ -1,13 +1,13 @@
 def function_sum(x, y):
-  """Soma x e y
+  """Sum x and y
   
-  >>> soma(10, 20)
+  >>> function_sum(10, 20)
   30
 
-  >>> soma(-10, 20)
+  >>> function_sum(-10, 20)
   10
 
-  >>> soma('10', 20)
+  >>> function_sum('10', 20)
   Traceback (most recent call last):
   ...
   AssertionError: y must be int or float
